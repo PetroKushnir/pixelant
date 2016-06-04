@@ -1,0 +1,16 @@
+
+.item{
+    background: #444;    
+    text-align: center;
+}
+.carousel{
+    width: auto;
+    height: auto;
+}
+
+.carousel-caption{
+    text-align: left;
+    background: #999; 
+    margin: 10% 30% 10% 10%;
+    opacity: 0.9;
+}
