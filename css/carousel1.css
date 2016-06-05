@@ -1,16 +1,18 @@
 
 .item{
-    background: #444;    
+    background: #777;    
     text-align: center;
 }
-.carousel{
-    width: auto;
-    height: auto;
-}
+
 
 .carousel-caption{
     text-align: left;
     background: #999; 
-    margin: 10% 30% 10% 10%;
+    margin: 25% 30% 10% 10%;
     opacity: 0.9;
+}
+.item a{
+   margin-left: 25%;
+   margin-top: 5%;
+    
 }
