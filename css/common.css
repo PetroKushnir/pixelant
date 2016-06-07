@@ -1,3 +1,23 @@
 header {
     margin-top: 0px ;
 }
+
+#firstmenu{
+    background-color:#C0C0C0;}
+    
+
+#quotes{
+    background-color:#D3D3D3;
+    margin:3% 0 2% 0;
+}
+
+footer{
+    margin-top:5%;
+}
+#footer1{
+    background-color:#778899;
+}
+#footer2{
+     margin-top:0;
+     background-color:#708090;
+}
