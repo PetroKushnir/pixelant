@@ -7,8 +7,8 @@
 
 .carousel-caption{
     text-align: left;
-    background: #999; 
-    margin: 25% 30% 10% 10%;
+    background: #999;
+    margin: 25% 30% 10% -5%;
     opacity: 0.9;
 }
 .item a{

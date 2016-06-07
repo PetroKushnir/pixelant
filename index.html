@@ -8,9 +8,13 @@
     <title>Pixelant</title>
 
     <!-- Bootstrap -->
-    
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/carousel1.css" rel="stylesheet" >
+    <link href="css/common.css" rel="stylesheet" >
+    
+
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,8 +24,13 @@
     <![endif]-->
   </head>
   <body>
-    <div class="row">
-      <div class="col-md-12"><!-- Top fixed menu -->
+    
+    <div class="container">
+    <header>
+    <div class="row"><!-- Top menu -->
+    
+      <div class="col-md-12">
+        
         <nav class="navbar navbar-default navbar-static-top" role="navigation">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -41,27 +50,31 @@
   <li role="presentation"><a href="#">Login</a></li>
       </ul>-->
       <ul class="nav navbar-nav">
-        <li><a href="#"><img src="icons/png/home.png" alt=""  width="25" height="30">Home</a></li>
-        <li><a href="#"><img src="icons/png/git-branch.png" alt="" width="25" height="30">Sitemap</a></li>
-        <li><a href="#"><img src="icons/png/person.png" alt="" width="25" height="30">Login</a></li>
+        <li><a href="#"><i class="fa fa-2x fa fa-male"></i>Home</a></li>
+       <li><a href="#"><i class="fa fa-2x fa-code-fork"></i>Sitemap</a></li>
+        <li><a href="#"><i class="fa fa-2x fa-home"></i>Login</a></li>
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
           <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
+        <button class="btn btn-default" type="button">
+        <i class="glyphicon glyphicon-search"></i>
+        </button>
       </form>
     </div>
   </div>
 </nav>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12"><!-- Top second menu -->
-
+    
+    <div class="row"><!-- Top second menu -->
+    <!--<div class="col-md-2">
+      <img src="images/pixelant.png" class="img-responsive" alt="pixelant" >
+    </div>-->  
+      <div class="col-md-12">
 <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-      <img src="images/pixelant.png" class="img-responsive" alt="pixelant" align="left">
+  <div class="container-fluid">
       <!-- Бренд та перемикач згруповані для кращого відображення на мобільних пристроях -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -69,13 +82,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
         </button>
-        
       </div>
-  
       <!-- Зібрано навігаційні лінки, форми, та інший вміст для переключення -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
         <ul class="nav navbar-nav navbar-right">
@@ -108,16 +116,16 @@
           <li><a href="#">News</a></li>
           <li><a href="#">Contacts</a></li>
         </ul>
-        
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
       </div>
     </div>
-    
-    <div class="row">
+  
+  
+    <div class="row" ><!-- Карусель1 -->
       <div class="col-md-12">
-        <!-- Карусель -->
+  
 <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
   <!-- Индикаторы для карусели -->
   <ol class="carousel-indicators">
@@ -137,7 +145,7 @@
         <div class="carousel-caption">
     <h3>Lorem ipsum dolor sit</h3>
     <p>Lorem ipsum  dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button" >CALL TO ACTION</a>
+    <a class="btn btn-primary" href="#" role="button" >CALL TO ACTION</a>
   </div>
       </div>
     </div>
@@ -148,7 +156,7 @@
         <div class="carousel-caption">
         <h3>Lorem ipsum dolor sit</h3>
     <p>Lorem ipsum  dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">CALL TO ACTION</a>
+    <a class="btn btn-primary" href="#" role="button">CALL TO ACTION</a>
       </div>
     </div>
     </div>
@@ -159,7 +167,7 @@
         <div class="carousel-caption">
         <h3>Lorem ipsum dolor sit</h3>
     <p>Lorem ipsum  dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">CALL TO ACTION</a>
+    <a class="btn btn-primary" href="#" role="button">CALL TO ACTION</a>
       </div>
     </div>
   </div>
@@ -173,12 +181,13 @@
     <span class="glyphicon glyphicon-chevron-right"></span>
   </a>
 </div>
+</div>
       </div>
     </div>
-  </div>
+</header>
 
     
-<div class="row text-center">
+      <div class="row text-center">
      
       
         <div class="col-md-4">
@@ -204,12 +213,12 @@
           <p><a class="btn btn-default" href="#" role="button">Read More</a></p>
         </div>
        
-</div>
+      </div>
         
     
-    <div class="row text-center">
+    <div class="row text-left">
 
-            <div class="col-md-3 col-sm-6 hero-feature">
+            <div class="col-md-4 col-sm-4 hero-feature">
                 <div class="thumbnail">
                     <img src="images/image1.png" alt="">
                     <div class="caption">
@@ -220,7 +229,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 hero-feature">
+            <div class="col-md-4 col-sm-4 hero-feature">
                 <div class="thumbnail">
                     <img src="images/image2.png" alt="">
                     <div class="caption">
@@ -231,7 +240,7 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 hero-feature">
+            <div class="col-md-4 col-sm-4 hero-feature">
                 <div class="thumbnail">
                     <img src="images/image3.png" alt="">
                     <div class="caption">
@@ -242,16 +251,123 @@
                 </div>
             </div>
             </div>
+            
+            <hr>
+            
     <div class="row">
       <div class="col-md-12">.col-md-12</div>
     </div>
     <div class="row">
-      <div class="col-md-6">.col-md-6</div>
-      <div class="col-md-6">.col-md-6</div>
+      <div class="col-md-6">
+      <blockquote>
+        <i class="fa fa-quote-left fa-2x fa-pull-left"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<i class="fa fa-quote-right"></i></p>
+        <footer><a href="#">John Doe</a> <cite title="Source Title">,VP of Marketing,<a href="#">Royal Trader</a></cite></footer>
+      </blockquote>
+      </div>
+      <div class="col-md-6">
+        <blockquote>
+        <i class="fa fa-quote-left fa-2x fa-pull-left"></i>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation<i class="fa fa-quote-right"></i></p>
+        <footer><a href="#">John Doe</a> <cite title="Source Title">,VP of Marketing,<a href="#">Royal Trader</a></cite></footer>
+      </blockquote>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">.col-md-12</div>
+    
+    <footer class="text-left"><!-- Footer -->
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>About Company AB</h3><hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Contact US</h3><hr>
+              <div itemscope itemtype="#" class="address">
+						<div itemprop="address" itemscope itemtype="#">
+						  <span itemprop="addressRegion">Company AB</span><br>
+							<span itemprop="streetAddress">Street 8</span><br>
+							<span itemprop="postalCode">Zipcode City</span><br>
+							<span itemprop="addressCountry">Country</span><br>
+						</div>
+					</div>
+					<p class="tel">Call us on <i class="glyphicon glyphicon-phone"></i><a href="tel:++46(0)402607700">+46 (0) 40 260 77 00</a></p>
+					<p class="email">Email us at <i class="glyphicon glyphicon-envelope"></i><a href="mailto:info@info.se">info@info.se</a></p>
+
+				</div>	
+
+                    
+        <div class="footer-col col-md-4" >
+         <h3>Subscribe us to newsletter</h3><hr>
+         <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <label for="inputemail" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="inputemail" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="inputname" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+              <input type="text" class="form-control" id="inputname" placeholder="Name">
+            </div>
+          </div>
+          
+          <div class="form-group" >
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-primary" >SUBCSRIBE</button>
+            </div>
+          </div>
+        </form>
+       </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-below ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                       All rights reserved &copy; 2016
+                    </div>
+                    <div class="col-md-6">
+                    <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-2x fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-2x fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-2x fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-2x fa-vimeo"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-2x fa-google-plus"></i></a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-2x fa-pinterest"></i></i></a>
+                            </li>
+                            
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-2x fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-2x fa-youtube-play"></i></a>
+                            </li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </footer><!--/Footer -->
+    
     </div>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
